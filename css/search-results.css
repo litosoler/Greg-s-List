@@ -1,0 +1,98 @@
+nav{
+	background-color: #EEE;
+	border-bottom: solid 1px #ddd;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	padding-top: 16px;
+}
+nav ul, ul li{
+	display: inline-block;
+}
+nav label, nav ul{
+	margin-bottom: 16px;
+	}
+nav label{
+	margin-left: 20px;
+	font-weight: bold;
+}
+nav ul{
+	position:absolute;
+	right: 0px;
+	margin-right:20px;
+	-webkit-padding-start: 0px;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+nav ul li{
+	font-weight:bold;
+}
+nav ul li:nth-child(1)::after{
+	margin-right: 10px;
+	margin-left: 10px;
+	content: " | ";
+
+}
+a{
+	color: purple;
+}
+a:hover{
+	font-size: 20px;
+}
+main{
+	padding-top: 130px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#busqueda{
+	margin-bottom: 30px	
+}
+#busqueda label{
+	display:block;
+	font-size: 20px;
+}
+form input[type=text]{
+	font-size: 16px;
+    font-weight: 500;
+    width: 400px;
+    height: 30px;
+    padding: 0 5px 0 8px;
+    border: solid 1px #DDD;
+    border-radius: 3px;
+}
+form input[type=image]{
+	position: relative;
+	top: 10px;
+	width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px #DDD;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+.botones{
+	margin-top: 30px;
+}
+.botones span{
+	border: solid 1px #DDD;
+	padding:5px;
+}
+input[type=button]{
+	height: 31px;
+	background-color: white;
+	border: solid 1px #DDD;
+	width: 80px;
+}
+.gris{
+	color: grey;
+	margin-right: 20px;
+}
+.purpura{
+	color: purple;
+	font-weight: bold;
+	margin-right: 20px;
+}
